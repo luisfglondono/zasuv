@@ -166,7 +166,7 @@ const Home: NextPage = () => {
 
   useEffect(() => {
     /**
-     * initSnippetsFetched ensures that user snippets have been retrieved;
+     * initSnippetsFetched ensures that user snippet#ffe3e6s have been retrieved;
      * the value is set to true when snippets are first retrieved inside
      * of getSnippets in useCommunityData
      */
@@ -226,7 +226,6 @@ const Home: NextPage = () => {
       </>
       <Stack spacing={5} position="sticky" top="14px">
         <Recommendations />
-        <Premium />
         <PersonalHome />
       </Stack>
     </PageContentLayout>

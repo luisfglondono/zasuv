@@ -166,7 +166,7 @@ const About: React.FC<AboutProps> = ({
               {!onCreatePage && (
                 <Link href={`/r/${router.query.community}/submit`}>
                   <Button mt={3} height="30px">
-                    Create Post
+                    Crear publicación
                   </Button>
                 </Link>
               )}

@@ -23,21 +23,24 @@ const Navbar: React.FC = () => {
   return (
     <Flex
       bg="white"
-      height="44px"
+      height="60px"
       padding="6px 12px"
       justifyContent={{ md: "space-between" }}
     >
       <Flex
+        color="white"
+
         align="center"
         width={{ base: "40px", md: "auto" }}
         mr={{ base: 0, md: 2 }}
         cursor="pointer"
         onClick={() => onSelectMenuItem(defaultMenuItem)}
       >
-        <Image src="/images/redditFace.svg" height="30px" />
+        <Image color="white" src="/images/zasuv.png" height="30px" />
         <Image
+          color="white"
           display={{ base: "none", md: "unset" }}
-          src="/images/redditText.svg"
+          src="/images/textzasuv.svg"
           height="46px"
         />
       </Flex>

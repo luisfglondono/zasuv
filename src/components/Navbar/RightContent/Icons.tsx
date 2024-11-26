@@ -20,7 +20,7 @@ const ActionIcons: React.FC<ActionIconsProps> = () => {
         display={{ base: "none", md: "flex" }}
         alignItems="center"
         borderRight="1px solid"
-        borderColor="gray.200"
+        borderColor="white"
       >
         <Flex
           mr={1.5}
@@ -28,7 +28,7 @@ const ActionIcons: React.FC<ActionIconsProps> = () => {
           padding={1}
           cursor="pointer"
           borderRadius={4}
-          _hover={{ bg: "gray.200" }}
+          _hover={{ bg: "white" }}
         >
           <Icon as={BsArrowUpRightCircle} fontSize={20} />
         </Flex>
@@ -38,7 +38,7 @@ const ActionIcons: React.FC<ActionIconsProps> = () => {
           padding={1}
           cursor="pointer"
           borderRadius={4}
-          _hover={{ bg: "gray.200" }}
+          _hover={{ bg: "white" }}
         >
           <Icon as={IoFilterCircleOutline} fontSize={22} />
         </Flex>
@@ -48,7 +48,7 @@ const ActionIcons: React.FC<ActionIconsProps> = () => {
           padding={1}
           cursor="pointer"
           borderRadius={4}
-          _hover={{ bg: "gray.200" }}
+          _hover={{ bg: "white" }}
         >
           <Icon as={IoVideocamOutline} fontSize={22} />
         </Flex>
@@ -60,7 +60,7 @@ const ActionIcons: React.FC<ActionIconsProps> = () => {
           padding={1}
           cursor="pointer"
           borderRadius={4}
-          _hover={{ bg: "gray.200" }}
+          _hover={{ bg: "white" }}
         >
           <Icon as={BsChatDots} fontSize={20} />
         </Flex>
@@ -70,7 +70,7 @@ const ActionIcons: React.FC<ActionIconsProps> = () => {
           padding={1}
           cursor="pointer"
           borderRadius={4}
-          _hover={{ bg: "gray.200" }}
+          _hover={{ bg: "white" }}
         >
           <Icon as={IoNotificationsOutline} fontSize={20} />
         </Flex>
@@ -81,7 +81,7 @@ const ActionIcons: React.FC<ActionIconsProps> = () => {
           padding={1}
           cursor="pointer"
           borderRadius={4}
-          _hover={{ bg: "gray.200" }}
+          _hover={{ bg: "white" }}
           onClick={toggleMenuOpen}
         >
           <Icon as={GrAdd} fontSize={20} />

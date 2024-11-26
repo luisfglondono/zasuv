@@ -39,12 +39,12 @@ const MenuWrapper: React.FC<MenuWrapperProps> = () => {
           <Flex alignItems="center">
             {user ? (
               <>
-                <Icon
+                {/* <Icon
                   fontSize={24}
                   mr={1}
                   color="gray.300"
                   as={FaRedditSquare}
-                />
+                /> */}
                 <Box
                   display={{ base: "none", lg: "flex" }}
                   flexDirection="column"
